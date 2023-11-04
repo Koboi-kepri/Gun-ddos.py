@@ -100,10 +100,10 @@ def send_request_threads(url):
         thread.join()
 
 # Tautan GitHub repositori yang ingin Anda klone
-github_repo_url = "https://github.com/Koboi-kepri/Gun-ddos.git"
+github_repo_url = "https://github.com/Koboi-kepri/Gun-ddos.py.git"
 
 # Nama direktori tempat Anda ingin mengkloning repositori
-repo_directory = "Gun-ddos"
+repo_directory = "Gun-ddos.py"
 
 # Lakukan git clone
 try:
@@ -113,7 +113,7 @@ try:
     # Setelah mengkloning, Anda dapat menjalankan alat Gun-ddos
     # Ganti dengan perintah yang sesuai untuk menjalankan alat ini
     # Misalnya, perintah berikut ini (sesuaikan dengan alat yang sebenarnya):
-    subprocess.run(["python", "Gun-ddos"])
+    subprocess.run(["python", "Gun-ddos.py"])
 
 except subprocess.CalledProcessError:
     print("Terjadi kesalahan saat mencoba mengkloning repositori.")
